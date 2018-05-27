@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 50px;
+  background: #5656af;
+  
+
+}
+h2 {
+      /* font-size: 40px; */
+      color: #fff;
+      line-height: 50px;
+}
+h3 {
+      font-size: 20px;
+      line-height: 0.5em;
+}
+
+#output {
+  margin-top: 20px;
+}
+.card {
+  background: #fff;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 70px;
+  overflow: hidden;
+  margin: 10px 0;
+  
+}
+
+.avatarImg {
+  /* background-image: url("../assets/octane.png"); */
+  width: 100px;
+  height: 100px;
+  margin: 5px 20px 5px 5px;
+  border-radius: 50%;
+  background-size: contain;
+  float: left;
+}
+
+
+section {
+  margin: auto;
+  background-image: url(../assets/ball.png);
+    background-repeat: no-repeat;
+    /* left: 50px; */
+    background-position-x: 80%;
+    background-position-y: top;
+}
+div#one {
+  width: 470px;
+  float: left;
+  /* clear: both; */
+}
+div#two {
+  margin-left: 50px;
+  height: 800px;
+  width: 800px;
+  /* background: rgb(158, 158, 158); */
+  display: inline-block;
+}
+
+
+
+.icon {
+  width: 163px;
+  height: 59px;
+  /* top: 200px; */
+  position: relative;
+}
+
+.tagName {
+  color: #fff;
+  width: 200px;
+  height: 140px;
+  /* background: #739bff; */
+  display: inline-block;
+  position: absolute;
+  /* margin-top: 100px; */
+}
+
+.btn {
+	background-color:#1f71ff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	
+	font-size:17px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #739bff;
+}
+.btn:hover {
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.sortBtn {
+	background-color:#ff2146;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #944d57;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	/* font-family:Arial;
+	font-size:16px; */
+	padding:7px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff7575;
+}
+.sortBtn:hover {
+	background-color:#b3141c;
+}
+.sortBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.player-id {
+  padding: 10px;
+  font-size: 16px;
+  border-width: 2px;
+  border-color: #1f71ff;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 50px;
+
+}
+.player-id:focus {
+  outline:none;
+}
